@@ -18,7 +18,7 @@ echo
 sudo apt-get update -y
 
 ## Install APache
-sudo apt-get install apache2 apache2-doc apache2-mpm-prefork apache2-utils libexpat1 ssl-cert -y
+sudo apt-get install ufw apache2 apache2-doc apache2-mpm-prefork apache2-utils libexpat1 ssl-cert -y
 
 ## Install PHP
 apt-get install php7.4 libapache2-mod-php php-mysql -y
