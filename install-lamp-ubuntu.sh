@@ -21,7 +21,7 @@ sudo apt-get update -y
 sudo apt-get install apache2 apache2-doc apache2-mpm-prefork apache2-utils libexpat1 ssl-cert -y
 
 ## Install PHP
-apt-get install php libapache2-mod-php php-mysql -y
+apt-get install php7.4 libapache2-mod-php php-mysql -y
 
 # Install MySQL database server
 export DEBIAN_FRONTEND="noninteractive"
